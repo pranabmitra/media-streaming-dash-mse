@@ -1,0 +1,9 @@
+Used the following command to make the fragmented MP4 from regular MP4:
+MP4Box -dash 1000 -rap -frag-rap h5505641488099938540.mp4
+
+Run the client server from the root directory:
+python -m SimpleHTTPServer 8888
+
+Run the Media server from the server directory:
+node server.js
+
